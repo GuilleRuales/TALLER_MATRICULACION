@@ -98,9 +98,18 @@ public class Materia {
         System.out.println("El nombre de la materia es: "+nombre);
         System.out.println("El codigo de la materia es: "+codigo);
         System.out.println("El numero de Horas de la materia es: "+numHoras);
-        profesor1.imprimirDatosProfesor();
+        /*profesor1.imprimirDatosProfesor();
         profesor2.imprimirDatosProfesor();
-        profesor3.imprimirDatosProfesor();
+        profesor3.imprimirDatosProfesor();*/
+        if (profesor1 != null) {
+            profesor1.imprimirDatosProfesor();
+        }
+        if (profesor2 != null) {
+            profesor2.imprimirDatosProfesor();
+        }
+        if (profesor3 != null) {
+            profesor3.imprimirDatosProfesor();
+        }
         System.out.println("--------------------------------------------------------------");
     }
 }

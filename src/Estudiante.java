@@ -77,14 +77,26 @@ public class Estudiante {
         System.out.println("La materia 3 es: "+materia3.getNombre());
     }
 
-    public void imprimirTodosProfesoress(){
+    /*public void imprimirTodosProfesores(){
         String nomMateria1Profesor1 = materia1.getProfesor1().getNombre();
         System.out.println("El nombre del profesor 1 de la materia: "+materia1.getNombre()+ "es: "+nomMateria1Profesor1);
         String nomMateria2Profesor2 = materia2.getProfesor2().getNombre();
         System.out.println("El nombre del profesor 2 de la materia: "+materia2.getNombre()+ "es: "+nomMateria2Profesor2);
         String nomMateria3Profesor3 = materia3.getProfesor3().getNombre();
         System.out.println("El nombre del profesor 3 de la materia: "+materia3.getNombre()+ "es: "+nomMateria3Profesor3);
-    }
+        if (materia1 != null) {
+            String nomMateria1Profesor1 = materia1.getProfesor1().getNombre();
+            System.out.println("El nombre del profesor 1 de la materia: " + materia1.getNombre() + " es: " + nomMateria1Profesor1);
+        }
+        if (materia2 != null) {
+            String nomMateria2Profesor2 = materia2.getProfesor2().getNombre();
+            System.out.println("El nombre del profesor 2 de la materia: " + materia2.getNombre() + " es: " + nomMateria2Profesor2);
+        }
+        if (materia3 != null) {
+            String nomMateria3Profesor3 = materia3.getProfesor3().getNombre();
+            System.out.println("El nombre del profesor 3 de la materia: " + materia3.getNombre() + " es: " + nomMateria3Profesor3);
+        }
+    }*/
 
     public void ingresarDatosEstudiante(int i){
         Scanner sc = new Scanner(System.in);
@@ -113,6 +125,5 @@ public class Estudiante {
         materia1.imprimirDatosMateria(1);
         materia2.imprimirDatosMateria(2);
         materia3.imprimirDatosMateria(3);
-
     }
 }
